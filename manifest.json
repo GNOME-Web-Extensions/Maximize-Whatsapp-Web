@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "Maximize WhatsApp",
+  "version": "1.0",
+
+  "description": "Enable full screen on for large aspect ratio screens on WhatsApp Web.",
+
+  "icons": {
+    "48": "icons/full-screen-wpp-48.png",
+    "98": "icons/full-screen-wpp-98.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+    "id": "menezes@pm.me"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://web.whatsapp.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
+
