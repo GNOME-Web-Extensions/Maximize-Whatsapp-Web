@@ -10,11 +10,6 @@
     "48": "icons/full-screen-wpp-48.png",
     "98": "icons/full-screen-wpp-98.png"
   },
-  "browser_specific_settings": {
-    "gecko": {
-    "id": "menezes@pm.me"
-    }
-  },
 
   "content_scripts": [
     {
